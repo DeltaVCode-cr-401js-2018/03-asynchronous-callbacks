@@ -1,0 +1,28 @@
+{
+  "name": "03-asynchronous-callbacks",
+  "version": "1.0.0",
+  "description": "![CF](http://i.imgur.com/7v5ASc8.png) 03: Asynchronous Callbacks\r ===",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DylanSchroeder/03-asynchronous-callbacks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DylanSchroeder/03-asynchronous-callbacks/issues"
+  },
+  "homepage": "https://github.com/DylanSchroeder/03-asynchronous-callbacks#readme",
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "jest": "^23.5.0"
+  }
+}
