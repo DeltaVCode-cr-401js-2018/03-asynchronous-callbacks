@@ -1,0 +1,25 @@
+{
+  "name": "03-asynchronous-callbacks",
+  "version": "1.0.0",
+  "description": "![CF](http://i.imgur.com/7v5ASc8.png) 03: Asynchronous Callbacks ===",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnMV13/03-asynchronous-callbacks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnMV13/03-asynchronous-callbacks/issues"
+  },
+  "homepage": "https://github.com/JohnMV13/03-asynchronous-callbacks#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^23.5.0",
+    "lint": "^1.1.2"
+  }
+}
