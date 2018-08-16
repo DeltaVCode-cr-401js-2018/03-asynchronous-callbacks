@@ -11,23 +11,17 @@ describe('reader', () => {
     });
   });
   it('can read one file', done => {
-    reader(
-      [file1],
-      (err, data) => {
-        expect(err).toBe(null);
-        expect(data[0]).toBe('Hello');
-        done();
-      }
-    );
+    reader([file1], (err, data) => {
+      expect(err).toBe(null);
+      expect(data[0]).toBe('Hello');
+      done();
+    });
   });
   it('can read two files', done => {
-    reader(
-      [file1, file2],
-      (err, data) => {
-        expect(err).toBe(null);
-        expect(data[0]).toBe('Hello');
-        done();
-      }
-    );
+    reader([file1, file2], (err, data) => {
+      expect(err).toBe(null);
+      expect(data[0]).toBe('Hello');
+      done();
+    });
   });
 });
