@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "lint": "",
+    "lint": "eslint .",
     "test": "jest"
   },
   "repository": {
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/DylanSchroeder/03-asynchronous-callbacks#readme",
   "devDependencies": {
+    "eslint": "^5.3.0",
     "jest": "^23.5.0"
   }
 }
