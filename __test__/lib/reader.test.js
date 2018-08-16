@@ -14,7 +14,7 @@ describe('reader', () => {
     reader([file1], (err, data) => {
       expect(err).toBe(null);
       expect(data[0]).toBe('Hello');
-      done();
+      done(); 
     });
   });
   it('can read two files', done => {
