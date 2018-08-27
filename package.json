@@ -19,6 +19,7 @@
   "homepage": "https://github.com/JohnMV13/03-asynchronous-callbacks#readme",
   "dependencies": {},
   "devDependencies": {
+    "eslint": "^5.4.0",
     "jest": "^23.5.0",
     "lint": "^1.1.2"
   }
